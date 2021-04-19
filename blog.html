@@ -2,36 +2,81 @@
 <head>
     <meta charset="UTF-8">
     <title>Garrett Scott - Code Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Code Blog</h1>
-    <p><a href="index.html" title="Assignment 1">Assignment 1</a></p>
-    <h2><u>Posts</u></h2>
-    <h4>Blog Post - 04/02/21</h4>
-    <h3>Assignment 1</h3>
-    <p>
-        The first challenge in this assignment was ensuring that I properly 
-        cloned the repository as I was unsure to use HTTPs or SSH. Lecture and lecture
-        notes addressed this question, so I decided to use HTTPs as it seemed to be the 
-        fastest way as I do not have a SSH key setup (although I was tempted).
-    </p>
-    <p>
-        Another challenge was writing long paragraphs. I find that it is annoying to 
-        constantly be pressing ENTER to start a new line in the editor. I googled a 
-        better way to write these paragraphs, but I did not really find the answer I was 
-        looking for; perhaps I will explore this more in the future. 
-    </p>
-    <p>
-        From this assignment I re-learned the basics of git and HTML. It has been 
-        almost 4 or 5 years since I have done anything related to web development. It 
-        was helpful to reiterate concepts and syntax. I already knew about a lot of the tags 
-        in HTML(h1, h2, h3, p, a, ul, li) and the basic commands of git(add, commit, push), but there were some instances where I 
-        needed to reference documentation or lecture notes.
-    </p>
-    <p>
-        Class notes and lecture were the most helpful for completing this assignment.
-        I was able to find everything I needed there. Another helpful resource is the 
-        MDN Web Docs, I had no idea this website existed and it is a quality resource.
-    </p>
+    <header>
+        <h1 id="site-title">Code Blog</h1>
+    </header>
+    
+    <!--<p><a href="index.html" title="Assignment 1">Assignment 1</a></p>-->
+    <h2 id="posts-title">Posts</h2>
+    <div class="posts-container">
+        <div class="post">
+            <h5 class="date">04/19/21</h5>
+            <h3 class="entry-title">Assignment 2</h3>
+            <p>
+                Identifying the specific CSS properties to use was the most challenging
+                aspect of this assignment. It is easy for me to forget the result of 
+                certain properties when applied to selectors. I solved this issue by
+                constantly referencing the MDN Web Docs. Perhaps the most challenging part 
+                of this assignment was sizing and spacing elements appropriately. This 
+                challenge was solved by trial and error.
+            </p>
+            <p>
+                From this assignment I learned how to use flexboxes in a project. I knew of 
+                the general idea behind flexboxes, but it was helpful to implement them.
+                Additionally, I learned how to style a web page so that it is somewhat responsive.
+                This seems like a valuable skill in the future. I already knew about the box model
+                with margins and padding, however, I still struggled to get things looking similar
+                to the mocks.
+            </p>
+            <p>
+                The MDN web docs were the most helpful in completing this assignment. I used 
+                the MDN web docs to get specific information on CSS properties. Additionally,
+                the lecture notes were a great resource for getting started. I used the lecture notes
+                in the beginning of the assignment to style what I could from that resource, then switched
+                to MDN Web Docs and Google.
+            </p>
+            <p>
+                I had to use Google to figure out how to get the button to stay when scrolling,
+                styling the buttons and increasing the size of the icons. I Googled a lot more on the
+                properties of elements, but most relevant links were to the MDN Web Docs, which I
+                have mentioned a lot. 
+            </p>
+
+        </div>
+        
+        <div class="post">
+            <h5 class="date">04/02/21</h5>
+            <h3 class="entry-title">Assignment 1</h3>
+            <p>
+                The first challenge in this assignment was ensuring that I properly 
+                cloned the repository as I was unsure to use HTTPs or SSH. Lecture and lecture
+                notes addressed this question, so I decided to use HTTPs as it seemed to be the 
+                fastest way as I do not have a SSH key setup (although I was tempted).
+            </p>
+            <p>
+                Another challenge was writing long paragraphs. I find that it is annoying to 
+                constantly be pressing ENTER to start a new line in the editor. I googled a 
+                better way to write these paragraphs, but I did not really find the answer I was 
+                looking for; perhaps I will explore this more in the future. 
+            </p>
+            <p>
+                From this assignment I re-learned the basics of git and HTML. It has been 
+                almost 4 or 5 years since I have done anything related to web development. It 
+                was helpful to reiterate concepts and syntax. I already knew about a lot of the tags 
+                in HTML(h1, h2, h3, p, a, ul, li) and the basic commands of git(add, commit, push), but there were some instances where I 
+                needed to reference documentation or lecture notes.
+            </p>
+            <p>
+                Class notes and lecture were the most helpful for completing this assignment.
+                I was able to find everything I needed there. Another helpful resource is the 
+                MDN Web Docs, I had no idea this website existed and it is a quality resource.
+            </p>
+        </div>
+
+    </div>
+
 </body>
 </html>
