@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+
+    background-color: #eeeeee;
+
+    font-family: 'Roboto';
+}
+
+.site-title {
+    margin: 0;
+    padding: 1vh 1vw;
+
+    background-color: #319df6;
+    color: #ffffff;
+
+    font-size: 37px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navlist {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+
+    padding-left: .8em;
+    padding-right: .8em;
+
+    display: flex;
+    align-items: flex-start;
+
+    list-style-type: none;
+
+    font-size: 21px;
+    font-weight: 500;
+
+}
+
+.navlist li{
+    margin-bottom: 0;
+    padding: .5vh .75vw;
+}
+.navlist li:last-child{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 0;
+
+    font-size: 16px;
+}
+
+.navlist a:hover{
+    color: #62a6e0;
+}
+
+.active {
+    border-bottom: .2em solid #418eba;
+}
+
+#navbar-search-input{
+    width: 175px;
+
+    background-color: #f1f1f1;
+
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+    
+    font-size: 19px;
+    font-weight: 500;
+
+}
+#navbar-search-input:focus{
+    background-color: #ffffff;
+    outline: none;
+}
+#navbar-search-button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#navbar-search-button:hover {
+    color: #62a6e0;
+    cursor:pointer;
+}
+
+.twit-container{
+    margin: 7vh 10vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.twit {
+    margin: 3px;
+
+    min-width: 32.5%;
+    flex: 0 30%;
+
+    display: flex;
+    align-items: flex-start;
+
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+
+    font-size: 19px;
+}
+@media only screen
+  and (max-width: 900px){
+      .twit{
+          flex: 1 50%;
+      }
+}
+
+.twit-icon {
+    font-size: 24px;
+    padding: .7em;
+}
+.twit-content {
+    width: 100%;
+}
+.twit-text {
+    margin-right: .8em;
+}
+.twit-author{
+    margin-left: auto;
+    margin-right: .8em;
+
+    width: fit-content;
+    justify-self: flex-end;
+
+    font-weight: bold;
+}
+.twit-author a:hover {
+    color: #62a6e0;
+}
+
+#create-twit-button {
+    padding: 15px;
+    
+    background-color: #f9151c;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #0000003d;
+
+    border: none;
+    outline: none;
+
+    font-size: 40px;
+    color: white;    
+    
+    float: right;
+
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+#create-twit-button:hover {
+    cursor: pointer;
+
+    background-color: #3aa7f7;
+
+    font-size: 43px;
+}

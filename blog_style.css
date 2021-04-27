@@ -17,6 +17,15 @@ body{
     color: #268acc;
 }
 
+a {
+    text-decoration: none;
+    color: #9cdcfe;
+}
+
+a:visited {
+    color: #9cdcfe;
+}
+
 .posts-container{    
     display: flex;
     flex-direction: column;
