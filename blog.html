@@ -14,7 +14,40 @@
     <!--<p><a href="index.html" title="Assignment 1">Assignment 1</a></p>-->
     <h2 id="posts-title">Posts</h2>
     <div class="posts-container">
-
+        <div class="post">
+            <h5 class="date">05/19/21</h5>
+            <h3 class="entry-title">Assignment 5</h3>
+            <p>
+                The most challengin part of the assignment was deciding what to do first. 
+                After achieving the first step, I decided to just templatize everything in 
+                one go rather than working on each individual step. This made the process 
+                a lot smoother once I got to coding server.js. However, creating the templates posed 
+                some challenges as I was not sure which parts to make partials and which parts to make the 
+                views and the layout. I re-read some of the directions and figured out what to 
+                do.
+            </p>
+            <p>
+                From this assignment I learned how templating works and how to dynamically generate 
+                content. I have tried to do this in the past and STRUGGLED a lot, so it is rewarding to 
+                finally have a basic understanding of how websites render content. Prior to this assignment, 
+                I was aware of templating with Pug, but I was very confused as to how all the pieces fit 
+                together. I was also not aware that templating could be used on the client-side JS as well, 
+                so it was insightful to see how content was added to the HTML on the client-side JS.
+            </p>
+            <p>
+                The lecture notes were the most helpful in completing this assingment. There was nearly every 
+                thing I needed in the lecture notes. They explained how to create and compile a handlebars template, 
+                what partials are and how to invoke them, and how to render content on the server-side. In addition to 
+                the lecture notes, I looked at the Express docs to make sure that I was using functions 
+                correctly.
+            </p>
+            <p>
+                However, I could not find out if the res.render(...) function sent the 200 status code. I 
+                tried to google it, but could not find an answer. So, just to make sure, I used res.status(200). 
+                I also googled how to read a JSON file. It turns out, that after reading the file with fs.readFile(...), you 
+                can call JSON.parse(myFile) to turn it into a JS object.
+            </p>
+        </div>
         <div class="post">
             <h5 class="date">05/12/21</h5>
             <h3 class="entry-title">Assignment 4</h3>
